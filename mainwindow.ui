@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1261</width>
-    <height>827</height>
+    <width>1009</width>
+    <height>717</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>9</x>
-      <y>38</y>
-      <width>661</width>
-      <height>733</height>
+      <x>10</x>
+      <y>40</y>
+      <width>531</width>
+      <height>591</height>
      </rect>
     </property>
     <property name="layoutDirection">
@@ -83,6 +83,63 @@
      <attribute name="title">
       <string>Discounts</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>471</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton_16">
+         <property name="text">
+          <string>import</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_33">
+         <property name="text">
+          <string>export</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" rowspan="2" colspan="2">
+        <widget class="QTableWidget" name="tableWidget_4">
+         <column>
+          <property name="text">
+           <string>discount</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ammount</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="pushButton_34">
+         <property name="text">
+          <string>add</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="pushButton_35">
+         <property name="text">
+          <string>apply</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_6">
      <attribute name="title">
@@ -212,6 +269,19 @@
        </item>
       </layout>
      </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>58</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>message</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_7">
      <attribute name="title">
@@ -222,28 +292,69 @@
      <attribute name="title">
       <string>Sales</string>
      </attribute>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QGroupBox" name="groupBox_6">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>40</y>
-        <width>113</width>
-        <height>30</height>
+        <x>10</x>
+        <y>10</y>
+        <width>491</width>
+        <height>330</height>
        </rect>
       </property>
-     </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>60</y>
-        <width>58</width>
-        <height>18</height>
-       </rect>
+      <property name="title">
+       <string>GroupBox</string>
       </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>search</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>month</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1" colspan="5">
+        <widget class="QTableWidget" name="tableWidget_2">
+         <column>
+          <property name="text">
+           <string>item</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>date</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>price</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="0" column="5" rowspan="3">
+        <widget class="QComboBox" name="comboBox_3"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>year</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QComboBox" name="comboBox_2"/>
+       </item>
+       <item row="3" column="2" colspan="2">
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_3">
@@ -260,15 +371,64 @@
      <attribute name="title">
       <string>Books</string>
      </attribute>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>501</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Yearly Books</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>year</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBox_4"/>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QTableWidget" name="tableWidget_3">
+         <column>
+          <property name="text">
+           <string>month</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>total</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>net</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>cost</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>750</x>
-      <y>510</y>
-      <width>386</width>
-      <height>251</height>
+      <x>560</x>
+      <y>380</y>
+      <width>221</width>
+      <height>201</height>
      </rect>
     </property>
     <property name="title">
@@ -277,6 +437,9 @@
     <layout class="QGridLayout" name="gridLayout_6">
      <item row="0" column="0">
       <layout class="QGridLayout" name="gridLayout_7">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetNoConstraint</enum>
+       </property>
        <item row="3" column="3">
         <widget class="QPushButton" name="pushButton_31">
          <property name="text">
@@ -393,16 +556,6 @@
      </item>
     </layout>
    </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>84</width>
-      <height>36</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QDateTimeEdit" name="dateTimeEdit">
     <property name="geometry">
      <rect>
@@ -416,10 +569,10 @@
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>310</y>
+      <x>550</x>
+      <y>260</y>
       <width>521</width>
-      <height>201</height>
+      <height>131</height>
      </rect>
     </property>
     <property name="title">
@@ -435,7 +588,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Ammount</string>
+      <string>Tax</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -451,39 +604,13 @@
       <string>Discount</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>70</y>
-       <width>58</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Total</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>90</y>
-       <width>58</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Total</string>
-     </property>
-    </widget>
     <widget class="QGroupBox" name="groupBox_4">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>120</y>
-       <width>361</width>
-       <height>71</height>
+       <x>0</x>
+       <y>70</y>
+       <width>161</width>
+       <height>61</height>
       </rect>
      </property>
      <property name="title">
@@ -495,15 +622,41 @@
       </item>
      </layout>
     </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>113</width>
+       <height>30</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>50</y>
+       <width>113</width>
+       <height>30</height>
+      </rect>
+     </property>
+    </widget>
    </widget>
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>550</x>
       <y>10</y>
-      <width>501</width>
-      <height>301</height>
+      <width>511</width>
+      <height>241</height>
      </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>511</width>
+      <height>241</height>
+     </size>
     </property>
     <property name="sizeAdjustPolicy">
      <enum>QAbstractScrollArea::AdjustIgnored</enum>
@@ -537,13 +690,23 @@
      </property>
     </column>
    </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>84</width>
+      <height>36</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1261</width>
+     <width>1009</width>
      <height>24</height>
     </rect>
    </property>
