@@ -2,6 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlError>
+#include <QEvent>
+#include <QThread>
+#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,10 +21,15 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void createTable(QString DBname);
+
+
 private slots:
     void on_actionExit_triggered();
 
 private:
     Ui::MainWindow *ui;
+
+    QSqlDatabase db;
 };
 #endif // MAINWINDOW_H
