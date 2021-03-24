@@ -20,6 +20,7 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    database.h \
     mainwindow.h
 
 FORMS += \
