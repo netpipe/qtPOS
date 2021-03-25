@@ -70,3 +70,26 @@ void MainWindow::createTable(QString DBname)
     db.close();
 
 }
+
+
+void MainWindow::on_empsaveadd_clicked()
+{
+    QString daystr;
+
+    if       (    ui->checkMon->isChecked() )
+        daystr += "monday";
+    if       (    ui->checkTuesday->isChecked() )
+        daystr += "tuesday";
+    if       (    ui->checkWensday->isChecked() )
+        daystr += "wensday";
+    if       (    ui->checkThursday->isChecked() )
+        daystr += "thursday";
+    if       (    ui->checkFriday->isChecked() )
+        daystr += "friday";
+    if       (    ui->checkSaturday->isChecked() )
+        daystr += "saturday";
+    if       (    ui->checkSunday->isChecked() )
+        daystr += "sunday";
+    if       (    ui->checkAll->isChecked() )
+        daystr += "alldays";
+}
