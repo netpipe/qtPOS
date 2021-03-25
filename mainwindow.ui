@@ -27,7 +27,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
@@ -734,6 +734,101 @@
      <attribute name="title">
       <string>Settings</string>
      </attribute>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>210</y>
+        <width>88</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>save</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>391</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_9">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>113</width>
+         <height>30</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>58</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>gst</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>58</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>pst</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_16">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>113</width>
+         <height>30</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_17">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>120</y>
+         <width>113</width>
+         <height>30</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>58</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>currency</string>
+       </property>
+      </widget>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">

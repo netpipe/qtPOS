@@ -21,6 +21,7 @@ SOURCES += \
 
 HEADERS += \
     database.h \
+    inventory.h \
     mainwindow.h
 
 FORMS += \

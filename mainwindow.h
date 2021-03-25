@@ -22,7 +22,7 @@ public:
     ~MainWindow();
 
     void createTable(QString DBname);
-
+void searchEmployee();
 
 private slots:
     void on_actionExit_triggered();
